@@ -14,9 +14,9 @@ BOT_TOKEN = getenv("8738927940:AAEJ7ekDiaRp0-hsLvrYNJtUGflUT6hmIMw")
 
 OWNER_ID = int(getenv("OWNER_ID", 8396616795))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "AnnieXRobot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxannie")
+BOT_USERNAME = getenv("BOT_USERNAME", "HINATA_MUSIC_PLYER_bot")
+BOT_NAME = getenv("BOT_NAME", "🎶 ʜɪɴᴀᴛᴀ ᴍᴜsɪᴄ ʙᴏᴛ 🎧")
+ASSUSERNAME = getenv("ASSUSERNAME", "HINATA_X_ASSITANT")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority")
@@ -42,7 +42,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ── Git / updates ──────────────────────────────────────────────────────────────
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/CertifiedCoders/AnnieXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/CertifiedCoders/.....")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
@@ -62,7 +62,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "22b6125bfe224587b722d6815002db2
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc68624851e9773")
 
 # ── Session strings (optional) ─────────────────────────────────────────────────
-STRING1 = getenv("STRING_SESSION")
+STRING1 = getenv("BAE1hZwAGCR7A72Jm6lI-W_bq0V7uNKKh2_59SATDOK4WF9wNlYdY6RjdSvKW1BmcK-X9t8u7lAXwUBTRSLciRwZ-XGeUBdynXuN0ZpMeKDqCgoGRCNtA_Vmo-sNiywKusAcHVCysuveEtpuaHRE3pb7JTsKb8xefdoOy27Qi3oll-i5oUlQ5ifHYqIT3QXgQmtkrpYYuJ0_60HAOhRA4-43IsRGNSLFZ6Ja7vlcRP0FLbnnY6zZ0qubi36HQpL5Zj9oObZWwIeVk7cDvTLwMqNctb6_nTXkE2d8EJfyzmt2Yn05aTfpjjaSSbUQYqboDn-I882Cj_bVnznDhpNRccdqfulubAAAAAH3Iwt-AA")
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
