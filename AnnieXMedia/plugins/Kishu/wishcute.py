@@ -5,7 +5,7 @@ import random
 import requests
 from AnnieXMedia import app
 
-SUPPORT_CHAT = "@FRIEND_ZONE_BY_MADARA"
+SUPPORT_CHAT = "FRIEND_ZONE_BY_MADARA"
 SUPPORT_BTN = InlineKeyboardMarkup(
     [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]]
 )
