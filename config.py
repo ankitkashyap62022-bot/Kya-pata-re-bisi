@@ -13,7 +13,7 @@ API_HASH = getenv("API_HASH", "4c8d3c8f5d3483296f5fb530ea2cfcc6")
 BOT_TOKEN = getenv("8738927940:AAEJ7ekDiaRp0-hsLvrYNJtUGflUT6hmIMw")
 
 OWNER_ID = int(getenv("OWNER_ID", 8396616795))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "II_YOUR_MADARA_II")
 BOT_USERNAME = getenv("BOT_USERNAME", "HINATA_MUSIC_PLYER_bot")
 BOT_NAME = getenv("BOT_NAME", "🎶 ʜɪɴᴀᴛᴀ ᴍᴜsɪᴄ ʙᴏᴛ 🎧")
 ASSUSERNAME = getenv("ASSUSERNAME", "HINATA_X_ASSITANT")
@@ -47,8 +47,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedDiscussion")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MADARA_DEFAULTER_ABOUT")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FRIEND_ZONE_BY_MADARA")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
 AUTO_LEAVING_ASSISTANT = False
@@ -78,15 +78,15 @@ STICKERS = [
     "CAACAgUAAx0Cd6nKUAACASBl_rnalOle6g7qS-ry-aZ1ZpVEnwACgg8AAizLEFfI5wfykoCR4h4E",
     "CAACAgUAAx0Cd6nKUAACATJl_rsEJOsaaPSYGhU7bo7iEwL8AAPMDgACu2PYV8Vb8aT4_HUPHgQ",
 ]
-HELP_IMG_URL = "https://files.catbox.moe/yg2vky.jpg"
+HELP_IMG_URL = "https://files.catbox.moe/r9c3tn.png"
 PING_VID_URL = "https://files.catbox.moe/nsgxzw.mp4"
-PLAYLIST_IMG_URL = "https://files.catbox.moe/yhaja5.jpg"
-STATS_VID_URL = "https://telegra.ph/file/e2ab6106ace2e95862372.mp4"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/mlztag.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/tiss2b.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/1d3da7.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/zhymxl.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/veykzq.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/oh07fz.jpg"
+STATS_VID_URL = "https://files.catbox.moe/15yws0.mp4"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/nzhqh9.png"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/nzhqh9.png"
+STREAM_IMG_URL = "https://files.catbox.moe/nzhqh9.png"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/nzhqh9.png"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/nzhqh9.png"
 SPOTIFY_ARTIST_IMG_URL = SPOTIFY_ALBUM_IMG_URL = SPOTIFY_PLAYLIST_IMG_URL = YOUTUBE_IMG_URL
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
