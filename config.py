@@ -1,4 +1,4 @@
-﻿# Authored By Certified Coders © 2025
+# Authored By Certified Coders © 2025
 import re
 from os import getenv
 from dotenv import load_dotenv
@@ -10,7 +10,8 @@ load_dotenv()
 # ── Core bot config ────────────────────────────────────────────────────────────
 API_ID = int(getenv("API_ID", 35411328))
 API_HASH = getenv("API_HASH", "4c8d3c8f5d3483296f5fb530ea2cfcc6")
-BOT_TOKEN = getenv("8738927940:AAEJ7ekDiaRp0-hsLvrYNJtUGflUT6hmIMw")
+# 🛠️ FIXED: Removed variable name from inside token
+BOT_TOKEN = getenv("BOT_TOKEN", "8738927940:AAEJ7ekDiaRp0-hsLvrYNJtUGflUT6hmIMw")
 
 OWNER_ID = int(getenv("OWNER_ID", 8396616795))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "II_YOUR_MADARA_II")
@@ -19,7 +20,8 @@ BOT_NAME = getenv("BOT_NAME", "🎶 ʜɪɴᴀᴛᴀ ᴍᴜsɪᴄ ʙᴏᴛ 🎧")
 ASSUSERNAME = getenv("ASSUSERNAME", "HINATA_X_ASSITANT")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
-MONGO_DB_URI = getenv("mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority")
+# 🛠️ FIXED: Proper getenv syntax for MongoDB
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority")
 LOGGER_ID = int(getenv("LOGGER_ID", -1003896050453))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
@@ -31,7 +33,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1288490189"))
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "30"))
 
 # ── External APIs ──────────────────────────────────────────────────────────────
-COOKIE_URL = getenv("https://files.catbox.moe/xh6f12.txt")  # required (paste link)
+# 🛠️ FIXED: Proper getenv syntax
+COOKIE_URL = getenv("COOKIE_URL", "https://files.catbox.moe/xh6f12.txt")  # required (paste link)
 API_URL = getenv("API_URL")        # optional
 VIDEO_API_URL = getenv("VIDEO_API_URL")  # optional
 API_KEY = getenv("API_KEY")        # optional
@@ -62,7 +65,8 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "22b6125bfe224587b722d6815002db2
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc68624851e9773")
 
 # ── Session strings (optional) ─────────────────────────────────────────────────
-STRING1 = getenv("BAImFsUAevMSiQoLxMqIkQV4PJDMwxG9wroLUGA1nFxNjm4j9CcbzgvTldz_VwUifQZwK_TpvFBMJiixp6leQzGBp8x4JAN3WNOyRjzSg5ibcqXIMkE7--2eh8pWkhIsNMso6HkEtv18FM7zkzTj-GAwRbNWcU_MqIfvCdmydYE6uXPFADt47tWJC7bhV3R6xZMSw5D8JFkQ0AH0QO6Y7RHgX1g87hwB2Z1oeZbc6jPlhGKwwf7XUDdN8Baw8_7PNkLEHHN5bzYWkLYCt6K8ZzIXdNBgy4N58KXziOHxV5lWOQsDIuu5B3uiKjGBkpwigXKdDu2ITsWnIURQo9CLYfcGTQd08gAAAAH3Iwt-AA")
+# 🛠️ FIXED: This is where the main bug was.
+STRING1 = getenv("STRING_SESSION", "BAImFsUAK7WRIm2W0nCAyZRRoujv-ROIXSP90hob3aHymRwxLk4XNsLyNDy0zOcaLUfy2DYPd2wzgND0GJdEudlZlPOoPAnOMer5sqTY4_fCbWfi765RQ7lyXZgCci4EHDjobrsQ7YzXhS5Ij8KSPTV_BilSaNOgc0OcuAMqa_x85c9hONMrlez-flSOTyPoqyHRB3wzkg2INEPhctPcvMCHD5Yl2SfC4eHD0CQbp4KGSXfFiQ8vYNdB262_4_TUqKWpLfqJJeIWL-DNg6OgjHwJJvNzxY-NdAzRiJX_Z6GyM0pybajUq3Q7r1D77NiK5J-Id9ThBGR3g6O9LZN43p3iyrd6DgAAAAH3Iwt-AA")
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
